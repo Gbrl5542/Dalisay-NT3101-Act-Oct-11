@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('../pictures/indominus-bg.jpg') no-repeat center center/cover fixed;
+  color: #ffffff;
+}
+
+.navbar {
+  background: rgba(11, 21, 23, 0.55);
+  backdrop-filter: blur(4px);
+}
+
+.brand-logo {
+  height: 58px;
+  width: auto;
+  display: block;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Domine", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.95rem;
+  color: #fcfcfc;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #24231f;
+  font-weight: 600;
+}
+
+.btn-Logout {
+  font-family: "Domine", serif;
+  font-style: normal;
+  background-color: #4898bd;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-Logout:hover {
+  background-color: #a81f1f;
+  color: #ffffff;
+}
+
+.dino-section {
+  min-height: calc(100vh - 90px);
+  padding: 40px 0;
+}
+
+.sub-heading {
+  font-family: "Domine", serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-family: "Domine", serif;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 0.9;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.dino-description {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-family: "Domine", serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #f1f1f1;
+  max-width: 550px;
+  margin: 24px auto;
+  text-align: left;
+  padding: 18px 22px;
+}
+
+.dino-illustration {
+  max-width: 85%;
+  height: auto;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.35));
+}
+
+.feature-section {
+  padding: 70px 0;
+}
+
+.indoraptor-section {
+  background: url('../pictures/indoraptor-bg.jpg') no-repeat center center/cover fixed;
+}
+
+.trex-section {
+  background: url('../pictures/trex-bg.jpg') no-repeat center center/cover fixed;
+}
+
+.feature-heading {
+  font-family: "Domine", serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+.feature-heading2 {
+  font-family: "Domine", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #a87609;
+}
+
+.feature-description {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-family: "Bodoni Moda SC", serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #f4f1ec;
+  max-width: 550px;
+  margin: 24px auto;
+  text-align: left;
+  padding: 18px 22px;
+}
+
+.feature-description2 {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  font-family: "Bodoni Moda SC", serif;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #ffffff;
+  max-width: 550px;
+  margin: 24px auto;
+  text-align: left;
+  padding: 18px 22px;
+}
+
+.feature-illustration {
+  max-width: 80%;
+  height: auto;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.35));
+}
+
+.btn-read-more {
+  font-family: "Press Start 2P", system-ui;
+  background-color: #ffffff;
+  color: #0b3d66;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #ffd94a;
+  color: #0b3d66;
+}
+
+.site-footer {
+  background: #0b0b0b;
+  color: #cfcfcf;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
